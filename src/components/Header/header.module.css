@@ -1,9 +1,10 @@
-.conrainer{
-    width: 1390px;
+.container{
+    margin: 0 auto;
+    width: 1590px;
     height: 84px;
+    top: 5px;
     left: -5px;
-    top: 0px;
-    position: absolute;
+    border-bottom: 0.2px rgb(157, 155, 155) solid;
 }
 
 .header{
@@ -30,6 +31,7 @@
     width: 18%;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .input{
