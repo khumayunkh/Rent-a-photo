@@ -3,6 +3,7 @@ import style from './title.module.css'
 import photo from './../../images/title.svg'
 
 function Title(){
+    
     return(
         <>
         <div className={style.container}>
