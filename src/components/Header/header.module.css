@@ -1,0 +1,56 @@
+.conrainer{
+    width: 1390px;
+    height: 84px;
+    left: -5px;
+    top: 0px;
+    position: absolute;
+}
+
+.header{
+    margin: 0 auto;
+    justify-self: center;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+}
+
+.information{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+.information h3{
+    font-weight: 500;
+}
+
+.search{
+    width: 18%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.input{
+    width: 70%;
+    height: 30px;
+    font-weight: 500;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    border-radius: 20px;
+    color: rgb(54, 54, 54);
+    padding-left: 5%;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.search button{
+    border: none;
+    background-color: white;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 5%;
+}

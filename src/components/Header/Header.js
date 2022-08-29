@@ -12,14 +12,14 @@ function Header(){
                     <img src={logo}/>
                 </div>
                 <div className={style.information}>
-                    <h2>каталог</h2>
-                    <h2>о компании</h2>
-                    <h2>новости</h2>
-                    <h2>контакты</h2>
+                    <h3>каталог</h3>
+                    <h3>о компании</h3>
+                    <h3>новости</h3>
+                    <h3>контакты</h3>
                 </div>
                 <div className={style.search}>
-                    <input placeholder="Поиск"/>
-                    <h2>войти</h2>
+                    <input placeholder="Поиск" className={style.input}/>
+                    <button>войти</button>
                 </div>
                 <img src={korzinka}/>
             </div>
