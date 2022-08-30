@@ -17,6 +17,16 @@
     justify-content: space-between;
 }
 
+.price_in{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+}
+
+.title_in{
+    width: 20%;
+}
+
 .title{
     color: #75758A;
 }
