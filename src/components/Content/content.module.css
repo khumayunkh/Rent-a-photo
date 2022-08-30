@@ -11,6 +11,9 @@
 .content{
     width: 80%;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .content_in{
@@ -31,3 +34,16 @@
     line-height: 16px;
     color: #75758A;
 }
+
+.button{
+    display: flex;
+    justify-content: end;
+    width: 60%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #75758A;
+}
+

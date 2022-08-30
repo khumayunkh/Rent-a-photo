@@ -2,6 +2,7 @@ import React from "react";
 import style from './content.module.css'
 
 function Content(){
+    
     return(
         <>
         <div className={style.container}>
@@ -11,6 +12,9 @@ function Content(){
                     <h5>Телевизоры(8)</h5>
                     <h5>Объективы(4)</h5>
                     <h5>Вспышки(2)</h5>
+                </div>
+                <div className={style.button}>
+                    <h5>Скрыть одинаковые</h5>
                 </div>
             </div>
         </div>
