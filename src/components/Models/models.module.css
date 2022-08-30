@@ -1,0 +1,51 @@
+.container{
+    margin: 0 auto;
+    width: 1590px;
+    height: 164px;
+    margin-top: 3%;
+}
+
+.models{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    height: 90%;
+    align-items: center;
+}
+
+.clear{
+    width: 30%;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.clear h5,h4{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 16px;
+    color: #75758A;
+}
+
+.images{
+    margin-left: 20%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images_in h3{
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.images_in h4{
+    margin-top: -5%;
+}
