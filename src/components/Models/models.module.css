@@ -30,6 +30,13 @@
     height: 52px;
     font-size: 18px;
     line-height: 26px;
+    font-weight: 500;
+}
+
+
+.clear img{
+    width: 144px;
+    height: 22px;
 }
 
 .clear h4{
@@ -55,10 +62,12 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-    line-height: 20px;
+    line-height: 26px;
     color: #000000;
 }
 
 .images_in h4{
-    margin-top: -5%;
+    margin-top: -15%;
+    color: #75758A;
+    font-weight: 300;
 }
