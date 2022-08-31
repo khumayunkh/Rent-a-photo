@@ -3,11 +3,8 @@
     width: 100%;
     height: 164px;
     height: 109px;
-    background-image: url('https://media.istockphoto.com/vectors/abstract-low-polygon-color-computational-background-illustration-vector-id1343650897?b=1&k=20&m=1343650897&s=170667a&w=0&h=WxapISkK55EbKCCj3msZ-mKOfc9BQh-AzqoQ40yqqH8=');
-    background-repeat: no-repeat;
-    background-size: cover
+    background-color: rgb(88, 88, 159);
 }
-
 
 .footer{
     margin: 0 auto;
@@ -15,4 +12,57 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    color: white;
+}
+
+.footer h4{
+    font-weight: 400;
+}
+
+.follow{
+    color: #60B021;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 10px;
+}
+
+
+.input{
+    justify-content: center;
+    display: flex;
+    width: 50%;
+    height: 100%;
+}
+
+.input_in{
+    width: 65%;
+    height: 40px;
+}
+
+.input_in:focus{
+    outline: none;
+}
+
+.input button{
+    font-size: 14px;
+    color: white;
+    font-weight: 500;
+    border: none;
+    background-color: rgba(114, 114, 132, 0.866);
+}
+
+.number{
+    border-bottom: #60B021 2px dashed;
+}
+
+.number a{
+    border: none;
+    color:#60B021;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 400;
 }
