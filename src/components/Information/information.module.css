@@ -29,16 +29,16 @@
 
 .title{
     color: #75758A;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .price{
     color: #60B021;
     font-family: 'Ubuntu';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 500;
     font-size: 14px;
-    line-height: 16px;
+    line-height: 18px;
 }
 
 
