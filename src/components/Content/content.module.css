@@ -17,7 +17,7 @@
 
 .content_in{
     display: flex;
-    width: 40%;
+    width: 45%;
     justify-content: space-between;
 }
 
@@ -29,11 +29,15 @@
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 15px;
-    line-height: 16px;
+    font-size: 18px;
+    line-height: 21px;
     color: #75758A;
 }
 
+.content_in h5{
+    width: 149px;
+    height: 22px;
+}
 .button{
     display: flex;
     justify-content: end;

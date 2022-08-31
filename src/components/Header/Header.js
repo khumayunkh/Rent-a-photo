@@ -3,7 +3,8 @@ import style from './header.module.css'
 import logo from './../../images/logo.png'
 import korzinka from './../../images/korzinka.png'
 
-function Header(){    
+function Header(){
+        
     return(
         <>
         <div className={style.container}>

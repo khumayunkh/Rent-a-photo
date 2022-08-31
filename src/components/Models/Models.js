@@ -7,6 +7,7 @@ import photo2 from './../../images/photo3.svg'
 
 function Models(){
     const photos = [photo, photo1, photo2]
+    
     return(
         <>
         <div className={style.container}>

@@ -23,7 +23,16 @@
     justify-content: space-between;
 }
 
-.clear h5,h4{
+.clear h5{
+    color: #75758A;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 125px;
+    height: 52px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.clear h4{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
     font-weight: 300;
