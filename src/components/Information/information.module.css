@@ -29,6 +29,7 @@
 
 .title{
     color: #75758A;
+    font-weight: 400;
 }
 
 .price{
@@ -38,4 +39,21 @@
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
+}
+
+
+.btn{
+    margin-top: 1%;
+    align-self: center;
+    width: 208px;
+    height: 52px;
+    border: none;
+    border-radius: 130px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    font-size: 18px;
+    line-height: 21px;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
 }

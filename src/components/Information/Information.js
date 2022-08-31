@@ -35,6 +35,7 @@ function Information(){
                     <h4 className={style.price}>18 100$</h4>
                     <h4 className={style.price}>15 250$</h4></div>
                 </div>
+                <button className={style.btn}>ПОКАЗАТЬ ВСЕ</button>
             </div>
         </div>
         </>
