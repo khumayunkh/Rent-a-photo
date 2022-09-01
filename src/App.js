@@ -1,4 +1,5 @@
 import './App.css';
+import Contact from './components/Contact/Contact';
 import Content from './components/Content/Content';
 import Footer from './components/Footer/Footer';
 import Header from './components/Header/Header';
@@ -15,6 +16,7 @@ function App() {
     <Models/>
     <Information/>
     <Footer/>
+    <Contact/>
     </>
   );
 }
