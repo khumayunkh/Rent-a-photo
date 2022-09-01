@@ -1,0 +1,19 @@
+.container{
+    margin-top: 5%;
+    width: 100%;
+}
+
+.contact{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.information img{
+    margin-left: -4%;
+}
+
+.information{
+    width: 25%;
+}
