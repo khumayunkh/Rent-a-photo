@@ -1,4 +1,5 @@
 import React from "react";
+import Contact from "../Contact/Contact";
 import style from './footer.module.css'
 
 
@@ -21,6 +22,7 @@ function Footer(){
                 </div>
             </div>
         </div>
+        <Contact/>
         </>
     )
 }

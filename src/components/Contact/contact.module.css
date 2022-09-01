@@ -1,5 +1,5 @@
 .container{
-    margin-top: 5%;
+    margin-top: 2%;
     width: 100%;
 }
 
@@ -15,9 +15,12 @@
 }
 
 .information{
-    width: 25%;
+    width: 20%;
 }
 
+.information img{
+    width: 80%;
+}
 
 .contact h4{
     color: #75758A;
