@@ -17,3 +17,13 @@
 .information{
     width: 25%;
 }
+
+
+.contact h4{
+    color: #75758A;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+}
