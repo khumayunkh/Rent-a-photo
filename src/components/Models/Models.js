@@ -14,15 +14,24 @@ function Models(){
                 <div className={style.clear}>
                     <img src={clear}/>
                     <h5>Модель Фотоаппарата</h5>
-                </div>
-                {photos.map(item => 
+                </div> 
                     <div className={style.images}>
                         <div className={style.images_in}>
-                            <img src={item}/>
+                            <img src={photo}/>
                             <h3>D5300 kit</h3>
                             <h4>Nikos</h4>
                         </div>
-                </div>)}
+                        <div className={style.images_in}>
+                            <img src={photo1}/>
+                            <h3>D5300 kit</h3>
+                            <h4>Nikos</h4>
+                        </div>
+                        <div className={style.images_in}>
+                            <img src={photo2}/>
+                            <h3>D5300 kit</h3>
+                            <h4>Nikos</h4>
+                        </div>
+                </div>
             </div>
         </div>
         </>

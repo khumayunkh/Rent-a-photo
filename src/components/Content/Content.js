@@ -2,6 +2,7 @@ import React from "react";
 import style from './content.module.css'
 
 function Content(){
+    
     return(
         <>
         <div className={style.container}>
