@@ -58,3 +58,36 @@
     font-size: 18px;
     margin-left: 5%;
 }
+
+
+@media(max-width:1500px){
+    .information{
+        width:35%;
+    }
+}
+
+@media(max-width:1300px) {
+    h3{
+        font-size: 16px;
+    }
+    .input{
+        width: 80%;
+        height: 30px;
+        font-weight: 500;
+        border: none;
+        background-color: rgb(230, 230, 230);
+        border-radius: 20px;
+        color: rgb(54, 54, 54);
+        padding-left: 5%;
+    }
+    .search button{
+        border: none;
+        background-color: white;
+        font-weight: 500;
+        font-size: 16px;
+        margin-left: 5%;
+    }
+    .header{
+        width:90%
+    }
+}
