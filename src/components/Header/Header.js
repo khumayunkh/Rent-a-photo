@@ -2,7 +2,6 @@ import React from "react";
 import style from './header.module.css'
 import logo from './../../images/logo.png'
 import korzinka from './../../images/korzinka.png'
-import Burger from "../Burger/Burger";
 
 function Header(){
     return(

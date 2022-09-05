@@ -1,10 +1,9 @@
 import React, {useState} from "react";
-import style from './Burger.module.css'
+import './Burger.css'
 
 
 function Burger() {
 
-    // to change burger classes
     const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
     const [menu_class, setMenuClass] = useState("menu hidden")
     const [isMenuClicked, setIsMenuClicked] = useState(false)
@@ -21,18 +20,20 @@ function Burger() {
         }
         setIsMenuClicked(!isMenuClicked)
     }
-
+    
     return(
         <div style={{width: '100%', height: '100vh'}}>
             <nav>
-                <div className={style.burger_menu} onClick={updateMenu}>
-                    <div className={style.burger_class} >sdfsdc</div>
-                    <div className={style.burger_class} >cds</div>
-                    <div className={style.burger_class} >cs</div>
+                <div className="burger-menu" onClick={updateMenu}>
+                    <div className={burger_class} ></div>
+                    <div className={burger_class} ></div>
+                    <div className={burger_class} ></div>
                 </div>
             </nav>
-
-            <div className={style.menu_class}></div>
+            <div className={menu_class}></div>
+            {isMenuClicked ? <div>
+            dfrerfe
+            </div>: <></>}
         </div>
     )
 }
