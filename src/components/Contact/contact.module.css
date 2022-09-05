@@ -36,3 +36,24 @@
         width: 90%;
     }
 }
+
+@media(max-width:950px){
+    .contact{
+        flex-wrap: wrap;
+    }
+}
+
+@media(max-width:470px) {
+    .information img{
+        width: 140px;
+    }
+    
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .information{
+        width: 70%;
+    }
+}
