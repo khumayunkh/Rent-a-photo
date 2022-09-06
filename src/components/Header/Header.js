@@ -10,11 +10,10 @@ function Header(){
         <>
         <div className={style.container}>
             <div className={style.header}>
-            <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
-        menu
-      </span>
-      <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
-               
+                <span className={style.menu} onClick={() => setIsOpen(true)}>
+                    menu
+                </span>
+                <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>   
                 <div className={style.logo}>
                     <img src={logo}/>
                 </div>
