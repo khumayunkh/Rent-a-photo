@@ -25,6 +25,14 @@
     color: #60B021;
 }
 
+.menu{
+    display: none;
+}
+
+.img{
+    display: none;
+}
+
 .content_in h5{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-style: normal;
@@ -84,40 +92,30 @@
 }
 
 @media(max-width:600px){
-    .container{
-        height: 200px;
-    }
-    .content{
-        height: 90%;
-        width: 80%;
-        display: flex;
-        flex-direction: column;
-        justify-content: start;
-        align-items: flex-start;
-    }
     .content_in{
         display: flex;
-        width: 50%;
-        height: 70%;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: flex-start;
-    }
-    .content_in h5{
+        width: 70%;
         margin: 0 auto;
-        font-size: 15px;
-        line-height: 30px;
-        margin-left: 0px;
+        justify-content: space-between;
     }
-    .button{
+    .menu{
         display: flex;
-        justify-content: start;
-        width: 60%;
-        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-style: normal;
-        font-weight: 300;
-        font-size: 15px;
-        line-height: 16px;
         color: #75758A;
+    }
+    .photo{
+        display: none;
+    }
+
+    .content_in{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .img{
+        margin-top: 5%;
+        margin-left: 9%;
+        display: flex;
+        width: 18px;
+        height: 20px;
     }
 }

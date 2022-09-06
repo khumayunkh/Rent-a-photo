@@ -4,6 +4,7 @@ import logo from './../../images/logo.png'
 
 
 function Contact(){
+    
     return(
         <>
         <div className={style.container}>
