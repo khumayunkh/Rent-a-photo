@@ -150,39 +150,23 @@
     .container{
         margin-top: 20%;
         width: 100%;
-        height: 180px;
+        height: 60px;
         background-color: rgb(88, 88, 159);
-    }
-    .footer{
-        margin: 0 auto;
-        width: 80%;
         display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        color: white;
-    }
-    .news{
-        height: 30%;
-        display: flex;
-        flex-direction: column;
+        align-items: center;
         justify-content: center;
     }
-    .news_in{
-        line-height:1px;
-        justify-self: start;
-        margin-top: -1%;
+    .footer{
+        width: 80%;
+        display: flex;
+        align-items: center;
     }
-    .follow{
-        color: #60B021;
-        font-family: 'Ubuntu';
-        font-style: normal;
-        font-weight: 500;
-        font-size: 15px;
-        line-height: 1px;
+    .news{
+       display: none;
     }
     .input{
-        height: 30%;
-        width: 90%;
+        margin: 0 auto;
+        width: 95%;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -202,9 +186,6 @@
         background-color: rgba(114, 114, 132, 0.866);
     }
     .number{
-        margin-top: 5%;
-        height: 30%;
-        display: flex;
-        align-items: center;
+        display: none;
     }
 }

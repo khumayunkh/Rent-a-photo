@@ -1,13 +1,20 @@
-import React from "react";
+import React, {useState} from "react";
 import style from './header.module.css'
 import logo from './../../images/logo.png'
 import korzinka from './../../images/korzinka.png'
+import Menu from "../Burger/Burger";
 
 function Header(){
+    const [isOpen, setIsOpen] = useState(false);
     return(
         <>
         <div className={style.container}>
             <div className={style.header}>
+            <span className="material-icons menu-btn" onClick={() => setIsOpen(true)}>
+        menu
+      </span>
+      <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>
+               
                 <div className={style.logo}>
                     <img src={logo}/>
                 </div>

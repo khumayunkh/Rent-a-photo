@@ -56,4 +56,18 @@
     .information{
         width: 70%;
     }
+
+    .company{
+        display: none;
+    }
+    .client{
+        display: none;
+    }
+    .help{
+        display: none;
+    }
+    .contact_us{
+        display: none;
+    }
+
 }

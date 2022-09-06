@@ -1,41 +1,23 @@
-import React, {useState} from "react";
-import './Burger.css'
+import React from "react";
+import "./Burger.css"
 
-
-function Burger() {
-
-    const [burger_class, setBurgerClass] = useState("burger-bar unclicked")
-    const [menu_class, setMenuClass] = useState("menu hidden")
-    const [isMenuClicked, setIsMenuClicked] = useState(false)
-
-    // toggle burger menu change
-    const updateMenu = () => {
-        if(!isMenuClicked) {
-            setBurgerClass("burger-bar clicked")
-            setMenuClass("menu visible")
-        }
-        else {
-            setBurgerClass("burger-bar unclicked")
-            setMenuClass("menu hidden")
-        }
-        setIsMenuClicked(!isMenuClicked)
-    }
-    
-    return(
-        <div style={{width: '100%', height: '100vh'}}>
-            <nav>
-                <div className="burger-menu" onClick={updateMenu}>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
-                    <div className={burger_class} ></div>
-                </div>
-            </nav>
-            <div className={menu_class}></div>
-            {isMenuClicked ? <div>
-            dfrerfe
-            </div>: <></>}
-        </div>
-    )
+function Menu({ isOpen, onChange }) {
+  return (
+    <div className={`Menu ${isOpen && "open"}`}>
+      <span
+        className="material-icons btn-close"
+        onClick={() => onChange(false)}
+      >
+        close
+      </span>
+      <div className="Menu-items">
+          <a>каталог</a>
+          <a>о компании</a>
+          <a>новости</a>
+          <a>контакты</a>
+      </div>
+    </div>
+  );
 }
 
-export default Burger
+export default Menu;
