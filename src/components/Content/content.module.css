@@ -4,7 +4,7 @@
     margin: 0 auto;
     width: 100%;
     height: 50px;
-    border-top: 0.2px rgb(157, 155, 155) solid;
+    border-top: 0.1px rgb(230, 230, 230) solid;
 }
 
 .content{
@@ -117,5 +117,9 @@
         display: flex;
         width: 18px;
         height: 20px;
+    }
+
+    .button h5{
+        font-weight: 500;
     }
 }

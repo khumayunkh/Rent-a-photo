@@ -6,7 +6,7 @@
     height: 60px;
     top: 5px;
     left: -5px;
-    border-bottom: 0.2px rgb(157, 155, 155) solid;
+    border-bottom: 0.1px rgb(230, 230, 230) solid;
 }
 
 .burger{
@@ -143,10 +143,9 @@
         width: 30%;
     }
     .logo_mobile h2{
-        font-family: 'Montserrat';
         font-style: normal;
-        font-weight: 800;
-        font-size: 18px;
+        font-weight: 900;
+        font-size: 25px;
         line-height: 26px;
     }
     .logo_mobile_in{
