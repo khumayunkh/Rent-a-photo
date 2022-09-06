@@ -8,7 +8,7 @@ function Menu({ isOpen, onChange }) {
         className="material-icons btn-close"
         onClick={() => onChange(false)}
       >
-        close
+        <img className="img_burger" src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Grey_close_x.svg/1024px-Grey_close_x.svg.png"/>
       </span>
       <div className="Menu-items">
           <a>каталог</a>

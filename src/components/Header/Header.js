@@ -11,7 +11,7 @@ function Header(){
         <div className={style.container}>
             <div className={style.header}>
                 <span className={style.menu} onClick={() => setIsOpen(true)}>
-                    menu
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1024px-Hamburger_icon.svg.png"/>
                 </span>
                 <Menu isOpen={isOpen} onChange={setIsOpen}></Menu>   
                 <div className={style.logo}>

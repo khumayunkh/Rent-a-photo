@@ -106,6 +106,10 @@
     .menu{
         display: contents;
     }
+
+    .menu img{
+        width: 25px;
+    }
     .search{
         width: 35%;
         display: flex;
