@@ -4,7 +4,7 @@ import style from './footer.module.css'
 
 
 function Footer(){
-        
+    
     return(
         <>
         <div className={style.container}>
@@ -14,7 +14,7 @@ function Footer(){
                     <h4 className={style.news_in}>на новости и акции</h4>
                 </div>
                 <div className={style.input}>
-                    <input className={style.input_in} placeholder="Введите email"/>
+                    <input className={style.input_in} placeholder="Ваш e-mail для рассылки"/>
                     <button>Подписаться</button>
                 </div>
                 <div className={style.number}>

@@ -3,7 +3,6 @@ import style from './information.module.css'
 
 
 function Information(){
-    
     return(
         <>
         <div className={style.container}>

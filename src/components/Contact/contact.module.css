@@ -2,6 +2,9 @@
     margin-top: 2%;
     width: 100%;
 }
+.footer{
+    display: none;
+}
 
 .contact{
     margin: 0 auto;
@@ -44,30 +47,27 @@
 }
 
 @media(max-width:470px) {
-    .information img{
-        width: 140px;
-    }
-    
     .contact{
+        display: none;
+    }
+    .container{
         display: flex;
-        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
-    .information{
-        width: 70%;
+    .footer{
+        display: flex;
     }
-
-    .company{
-        display: none;
-    }
-    .client{
-        display: none;
-    }
-    .help{
-        display: none;
-    }
-    .contact_us{
-        display: none;
-    }
-
+    /* .footer{
+        font-family: 'Ubuntu';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        color: #75758A;
+        text-align: center;
+        display: flex;
+    } */
 }

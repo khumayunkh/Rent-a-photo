@@ -1,13 +1,15 @@
 import React from "react";
 import style from './contact.module.css'
 import logo from './../../images/logo.png'
-
+import footer from './../../images/footer.svg'
 
 function Contact(){
     
     return(
         <>
         <div className={style.container}>
+            {/* <h4 className={style.footer}>2015-2019 Fotoprokat24</h4> */}
+            <img src={footer} className={style.footer}/>
             <div className={style.contact}>
                 <div className={style.information}>
                     <img src={logo}/>

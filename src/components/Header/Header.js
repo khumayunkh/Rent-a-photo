@@ -32,7 +32,7 @@ function Header(){
                     <input placeholder="Поиск" className={style.input}/>
                     <button>войти</button>
                 </div>
-                <img src={korzinka}/>
+                <img className={style.korzinka} src={korzinka}/>
             </div>
         </div>
         </>

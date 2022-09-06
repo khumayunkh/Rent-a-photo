@@ -126,9 +126,10 @@
     .container{
         margin: 0 auto;
         width: 100%;
-        height: 470px;
+        height: 330px;
     }
     .information{
+        height: 30px;
         width: 100%;
         display: flex;
         flex-direction: column;
@@ -152,7 +153,7 @@
     }
 
     .information_in{
-        height: 100px;
+        height: 70px;
         display: flex;
         flex-direction: column;
         align-items: center;

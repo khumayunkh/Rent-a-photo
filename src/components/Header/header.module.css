@@ -125,7 +125,7 @@
 
 @media(max-width:670px){
     .header{
-        height: 60px;
+        height: 45px;
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
@@ -150,5 +150,9 @@
     }
     .logo_mobile_in{
         color: #60B021;
+    }
+
+    .korzinka{
+        width: 120px;
     }
 }
