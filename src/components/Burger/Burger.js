@@ -1,8 +1,9 @@
 import React from "react";
 import "./Burger.css"
 
-function Menu({ isOpen, onChange }) {
-  return (
+function Menu({ isOpen, onChange }){
+    
+    return (
     <div className={`Menu ${isOpen && "open"}`}>
       <span
         className="material-icons btn-close"
@@ -17,7 +18,7 @@ function Menu({ isOpen, onChange }) {
           <a>контакты</a>
       </div>
     </div>
-  );
+    );
 }
 
 export default Menu;

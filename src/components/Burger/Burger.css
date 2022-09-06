@@ -19,6 +19,7 @@
     background: #60B021;
     transform: translate(-100%);
     transition: all .45s;
+    opacity: 0.9;
 }
 
 .Menu.open {
@@ -45,6 +46,7 @@
     font-size: 32px;
     text-decoration: none;
     position: relative;
+    cursor: pointer;
 }
 
 
