@@ -3,7 +3,6 @@ import style from './content.module.css'
 import vector from './../../images/Vector.png'
 
 function Content(){
-    
     return(
         <>
         <div className={style.container}>
@@ -18,6 +17,8 @@ function Content(){
                 </div>
                 <div className={style.button}>
                     <h5>Скрыть одинаковые</h5>
+                    <input type='checkbox' className={style.ios8_switch} id='checkbox-1'/>
+                    <label for='checkbox-1'></label>
                 </div>
             </div>
         </div>
