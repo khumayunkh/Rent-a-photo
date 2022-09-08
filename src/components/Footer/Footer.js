@@ -1,7 +1,7 @@
 import React from "react";
 import Contact from "../Contact/Contact";
 import style from './footer.module.css'
-
+import button from './../../images/Vector.svg'
 
 function Footer(){
     
@@ -15,7 +15,10 @@ function Footer(){
                 </div>
                 <div className={style.input}>
                     <input className={style.input_in} placeholder="Ваш e-mail для рассылки"/>
-                    <button>Подписаться</button>
+                    <button className={style.desktop_btn}>Подписаться</button>
+                    <button className={style.mobile_btn}>
+                        <img className={style.mobile_btn_in} src={button}/>
+                    </button>
                 </div>
                 <div className={style.number}>
                     <a>Заказать звонок</a>
