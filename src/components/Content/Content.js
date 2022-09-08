@@ -3,6 +3,7 @@ import style from './content.module.css'
 import vector from './../../images/Vector.png'
 
 function Content(){
+    
     return(
         <>
         <div className={style.container}>

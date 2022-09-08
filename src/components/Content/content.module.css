@@ -59,12 +59,14 @@ input[type="checkbox"].ios8_switch {
     position: absolute;
     margin-right: 1%;    
 }
+
 input[type="checkbox"].ios8_switch + label {
     margin-left: 5%;
     position: relative;
     padding: 5px 0 0 50px;
     line-height: 2.0em;
 }
+
 input[type="checkbox"].ios8_switch + label:before {
     content: "";
     position: absolute;
@@ -79,6 +81,7 @@ input[type="checkbox"].ios8_switch + label:before {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 input[type="checkbox"].ios8_switch + label:after {
     content: "";
     position: absolute;
@@ -93,14 +96,17 @@ input[type="checkbox"].ios8_switch + label:after {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
 }
+
 input[type="checkbox"].ios8_switch + label:hover:after {
     box-shadow: 0 0 5px rgba(0,0,0,0.3);
 }
+
 input[type="checkbox"].ios8_switch:checked + label:after {
     margin-left: 16px;
 }
+
 input[type="checkbox"].ios8_switch:checked + label:before {
-    background: #55D069;
+    background: #60B021;
 }
 
 @media(max-width:1600px){
@@ -135,9 +141,13 @@ input[type="checkbox"].ios8_switch:checked + label:before {
     }
     .content_in{
         display: flex;
-        width: 95%;
+        width: 75%;
         overflow: scroll;
         justify-content: space-between;
+    }
+
+    .button{
+        width: 20%;
     }
 }
 
@@ -163,6 +173,9 @@ input[type="checkbox"].ios8_switch:checked + label:before {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+    }
+    .button{
+        width: 100%;
     }
     .img{
         margin-top: 5%;
