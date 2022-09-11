@@ -28,7 +28,7 @@ function Models(){
                         <div className={style.images_in_3}>
                             <img src={photo2}/>
                             <h3>D5300 kit</h3>
-                            <h4>Nikos</h4>
+                            <h4>Canon</h4>
                         </div>
                 </div>
             </div>

@@ -4,7 +4,6 @@ import style from './footer.module.css'
 import button from './../../images/Vector.svg'
 
 function Footer(){
-    
     return(
         <>
         <div className={style.container}>

@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import style from './header.module.css'
 import logo from './../../images/logo.png'
 import korzinka from './../../images/korzinka.png'
-import logo_mobile from './../../images/logo_mobile_1.jpg'
 import Menu from "../Burger/Burger";
 
 function Header(){

@@ -1,7 +1,6 @@
 import React from "react";
 import style from './information.module.css'
 
-
 function Information(){
     return(
         <>
