@@ -3,7 +3,7 @@
 }
 
 .img_burger{
-    width: 25px;
+    width: 2.5rem;
 }
 
 @media(max-width:1100px){
@@ -27,7 +27,7 @@
 }
 
 .Menu > .btn-close {
-    font-size: 30px;
+    font-size: 3.0rem;
     position: absolute;
     left: 15px;
     top: 15px;
@@ -38,12 +38,12 @@
 .Menu > .Menu-items {
     display: grid;
     place-items: center;
-    grid-gap: 10px;
+    grid-gap: 1rem;
 }
 
 .Menu > .Menu-items > a {
     color: #ffffff;
-    font-size: 32px;
+    font-size: 3.2rem;
     text-decoration: none;
     position: relative;
     cursor: pointer;
