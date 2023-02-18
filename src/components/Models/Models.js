@@ -11,22 +11,22 @@ function Models(){
         <div className={style.container}>
             <div className={style.models}>
                 <div className={style.clear}>
-                    <img src={clear}/>
+                    <img src={clear} alt=''/>
                     <h5>Модель Фотоаппарата</h5>
                 </div> 
                     <div className={style.images}>
                         <div className={style.images_in}>
-                            <img src={photo}/>
+                            <img src={photo} alt=''/>
                             <h3>D5300 kit</h3>
                             <h4>Nikos</h4>
                         </div>
                         <div className={style.images_in}>
-                            <img src={photo1}/>
+                            <img src={photo1} alt=''/>
                             <h3>D5300 kit</h3>
                             <h4>Nikos</h4>
                         </div>
                         <div className={style.images_in_3}>
-                            <img src={photo2}/>
+                            <img src={photo2} alt=''/>
                             <h3>D5300 kit</h3>
                             <h4>Canon</h4>
                         </div>

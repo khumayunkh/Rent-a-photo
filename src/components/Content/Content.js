@@ -13,7 +13,7 @@ function Content(){
                     <h5 className={style.photo}>Объективы(4)</h5>
                     <h5 className={style.photo}>Вспышки(2)</h5>
                     <h1 className={style.menu}>...</h1>
-                    <img className={style.img} src={vector}/>
+                    <img className={style.img} src={vector} alt=''/>
                 </div>
                 <div className={style.button}>
                     <h5>Скрыть одинаковые</h5>
